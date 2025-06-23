@@ -3,7 +3,7 @@ folder=$(echo $path | awk -F/ '{print $NF}')
 
 cd ~/scripts/$folder
 a=$RANDOM
-echo $a > random
+echo $a > data
 
 git add data
 git commit -m $a
