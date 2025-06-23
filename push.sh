@@ -5,6 +5,6 @@ cd ~/scripts/$folder
 a=$RANDOM
 echo $a > random
 
-git add random
+git add data
 git commit -m $a
 git push origin main
